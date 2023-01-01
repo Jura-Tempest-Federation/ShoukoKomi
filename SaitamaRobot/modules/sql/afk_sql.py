@@ -2,9 +2,11 @@
 import threading
 import typing
 
-from sqlalchemy import Boolean, Column, BigInteger, UnicodeText
+from datetime import datetime
 
-from tg_bot.modules.sql import BASE, SESSION
+from sqlalchemy import Boolean, Column, BigInteger, UnicodeText
+from SaitamaRobot.modules.sql import BASE, SESSION
+
 
 
 class AFK(BASE):
