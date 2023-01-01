@@ -97,7 +97,7 @@ And the following:
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
 )
 
-SAITAMA_IMG = "https://graph.org/file/bcbed7a7101bf3c858b46.jpg"
+SAITAMA_IMG = "https://graph.org/file/c75ee93a90cbd8293b5b6.mp4"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project via [Paypal](ko-fi.com/sawada) or by contacting @plumblossomsword \
