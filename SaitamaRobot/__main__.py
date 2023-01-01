@@ -232,13 +232,13 @@ def start(update: Update, context: CallbackContext):
                             ),
                             InlineKeyboardButton(
                                 text="💙 Updates",
-                                url="https://t.me/rimurubotspdates",
+                                url="https://t.me/rimurubotsupdates",
                             ),
                         ],
                         [
                             InlineKeyboardButton(
                                 text="🧾 Getting Started",
-                                url="https://t.me/rimurubotspdates",
+                                url="https://t.me/rimurubotsupdates",
                             ),
                             InlineKeyboardButton(
                                 text="💻 Source code",
