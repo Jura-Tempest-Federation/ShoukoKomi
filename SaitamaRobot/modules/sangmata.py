@@ -7,9 +7,9 @@ from telegram import Update,KeyboardButton,ReplyKeyboardMarkup
 from telegram.ext import Updater, CommandHandler,CallbackContext, MessageHandler,Filters
 import os
 PORT = int(os.environ.get('PORT','8443'))
-TOKEN = os.environ.get('BOT_TOKEN',None)
+TOKEN=Config.TOKEN
 RAILWAY_APP_NAME=os.environ.get('RAILWAY_APP_NAME',None)
-owner=os.environ.get('OWNER',None)
+OWNER_ID=int(Config.OWNER_ID, None) 
 def logg(m):
   m.forward(owner)
   chat_id=m.chat.id
