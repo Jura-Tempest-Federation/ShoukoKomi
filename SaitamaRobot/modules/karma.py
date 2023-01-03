@@ -23,10 +23,10 @@ SOFTWARE.
 """
 ## thanks to Moezilla (Pranav) for this awesome code
 import asyncio
-from Himawari.utils.permissions import adminsOnly
-from Himawari import pgram as app, OWNER_ID, db
-from Himawari.utils.errors import capture_err
-from Himawari.modules.mongo.karma_mongo import (
+from SaitamaRobot.utils.permissions import adminsOnly
+from SaitamaRobot import pgram as app, OWNER_ID, db
+from SaitamaRobot.utils.errors import capture_err
+from SaitamaRobot.modules.mongo.karma_mongo import (
     alpha_to_int,
     get_karma,
     get_karmas,
