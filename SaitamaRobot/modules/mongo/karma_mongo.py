@@ -22,7 +22,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 """
 
-from SaitamaRobot import db
+from SaitamaRobot.mongo import db
 from typing import Dict, List, Union
 
 karmadb = db.karma
