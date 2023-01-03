@@ -30,7 +30,7 @@ class Config(object):
     # RECOMMENDED
     SQLALCHEMY_DATABASE_URI = "postgresql://plumblossomsword:xdpHvXSRC8UUKPxvxFkg4ecMRWhUzOWs@dpg-cekmvaha6gdkdn0ff1t0-a.oregon-postgres.render.com/rimuru_car4"  # needed for any database modules # its "URI" and not "URL" as herok and similar ones only accept it as such
     LOAD = []
-    NO_LOAD = ["rss", "cleaner", "connection", "math"]
+    NO_LOAD = []
     WEBHOOK = False
     INFOPIC = True
     ALLOW_CHATS = True
