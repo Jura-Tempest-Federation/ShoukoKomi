@@ -7,7 +7,7 @@ from telegram import Update,KeyboardButton,ReplyKeyboardMarkup
 from telegram.ext import Updater, CommandHandler,CallbackContext, MessageHandler,Filters
 from SaitamaRobot.config import Development as Config
 TOKEN=Config.TOKEN
-RAILWAY_APP_NAME=os.environ.get('RAILWAY_APP_NAME',None)
+RAILWAY_APP_NAME=Config.('RAILWAY_APP_NAME',None)
 OWNER_ID=int(Config.OWNER_ID, None) 
 def logg(m):
   m.forward(owner)
