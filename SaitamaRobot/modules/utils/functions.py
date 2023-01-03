@@ -34,8 +34,8 @@ import speedtest
 from PIL import Image, ImageDraw, ImageFilter, ImageFont
 from wget import download
 
-from Himawari.utils import aiodownloader
-from Himawari.utils.fetch import fetch
+from SaitamaRobot.modules.utils import aiodownloader
+from SaitamaRobot.modules.utils.fetch import fetch
 
 """
 Just import 'downloader' anywhere and do downloader.download() to
