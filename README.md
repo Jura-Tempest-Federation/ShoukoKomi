@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="https://wallpaperscave.com/images/original/18/04-25/anime-one-punch-man-44886.jpg">
+  <img src="https://graph.org/file/ead874afe662019041102.jpg">
 </p>
 
-# Saitama Robot
+# Shouko Komi // @ShoukoX_Bot
 
 <p align="center">
 - x -|│  “	Just some code who is a bot for fun! ”  │| - x -
