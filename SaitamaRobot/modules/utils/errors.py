@@ -25,7 +25,7 @@ SOFTWARE.
 import sys
 import traceback
 from functools import wraps
-from Himawari import pgram, SUPPORT_CHAT
+from SaitamaRobot import pgram, SUPPORT_CHAT
 from pyrogram.errors.exceptions.forbidden_403 import ChatWriteForbidden
 
 
