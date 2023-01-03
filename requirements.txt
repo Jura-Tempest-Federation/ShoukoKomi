@@ -23,7 +23,7 @@ psutil
 psycopg2-binary
 pynewtonmath
 pyrate-limiter
-pyrogram
+pyrogram==1.4.0
 python-telegram-bot==12.8
 regex
 requests
