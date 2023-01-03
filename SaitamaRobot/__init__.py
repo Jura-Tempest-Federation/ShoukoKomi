@@ -8,7 +8,6 @@ import telegram.ext as tg
 from telethon import TelegramClient
 from pyrogram import Client, errors
 
-pbot = Client("Komi", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
 StartTime = time.time()
 
 # enable logging
@@ -173,6 +172,7 @@ else:
 
 updater = tg.Updater(TOKEN, workers=WORKERS, use_context=True)
 telethn = TelegramClient("saitama", API_ID, API_HASH)
+pbot = Client("saitama", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
 dispatcher = updater.dispatcher
 
 DRAGONS = list(DRAGONS) + list(DEV_USERS)
