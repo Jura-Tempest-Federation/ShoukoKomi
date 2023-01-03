@@ -59,4 +59,4 @@ Join and Ask help from Group - @theoneandonlymurim on telegram
 
 ## Credits 📍
 Forked from SaitamaRobot @AnimeKaizoku 
-Thank you for your hard work!Senpai-tachi! 
+Thank you for your hard work! Senpai-tachi! 
