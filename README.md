@@ -54,11 +54,9 @@ If you believe this is "illegal or is violating the GPLv3" license, I request yo
 Good day! 
 
 ## Support and Help:
-We do not provide any support or help or take any questions or queries around this repo, if you want to deploy it you are on your own, learn to read or ask in some python dev group or stalkoverflow, the internet is your learning ground - but do NOT come our support group asking any help around the code or the repo, you will get immediately banned and just cussed at. 
-
-We did not run this bot or this repo to feed every entititled user who demands our dedicated time and attention, we are tired of it and the horrible community around kangs.
-
+PM the Owner - @plumblossomsword on telegram
+Join and Ask help from Group - @theoneandonlymurim on telegram
 
 ## Credits 📍
-* Well, it's all in the commit history
-Feel free to open pull requests should any be missing.
+Forked from SaitamaRobot @AnimeKaizoku 
+Thank you for your hard work!Senpai-tachi! 
