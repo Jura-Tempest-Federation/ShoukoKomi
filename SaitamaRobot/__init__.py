@@ -8,6 +8,7 @@ import telegram.ext as tg
 from telethon import TelegramClient
 from pyrogram import Client, errors
 
+pbot = Client("Komi", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
 StartTime = time.time()
 
 # enable logging
@@ -179,11 +180,6 @@ DEV_USERS = list(DEV_USERS)
 WOLVES = list(WOLVES)
 DEMONS = list(DEMONS)
 TIGERS = list(TIGERS)
-
-pbot = Client("Komi",
-              api_id=API_ID,
-              api_hash=API_HASH,
-              bot_token=TOKEN)
 
 # Load at end to ensure all prev variables have been set
 from SaitamaRobot.modules.helper_funcs.handlers import (
