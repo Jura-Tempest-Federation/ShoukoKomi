@@ -51,6 +51,7 @@ class Config(object):
     WOLVES = get_user_list("elevated_users.json", "whitelists")
     DONATION_LINK = None  # EG, paypal
     CERT_PATH = None
+    GROUP_ALIVE_PIC = "https://telegra.ph/file/8175042e792c11672cfd3.jpg"
     PORT = 5000
     DEL_CMDS = True  # Delete commands that users dont have access to, like delete /ban if a non admin uses it.
     STRICT_GBAN = True
