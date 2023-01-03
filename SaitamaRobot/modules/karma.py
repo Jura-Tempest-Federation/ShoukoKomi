@@ -23,7 +23,7 @@ SOFTWARE.
 """
 ## thanks to Moezilla (Pranav) for this awesome code
 import asyncio
-from SaitamaRobot.utils.permissions import adminsOnly
+from SaitamaRobot.modules.utils.permissions import adminsOnly
 from SaitamaRobot import pgram as app, OWNER_ID, db
 from SaitamaRobot.modules.utils.errors import capture_err
 from SaitamaRobot.mongo.karma_mongo import (
