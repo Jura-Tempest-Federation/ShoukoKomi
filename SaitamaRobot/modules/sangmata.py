@@ -7,7 +7,7 @@ from telegram import Update,KeyboardButton,ReplyKeyboardMarkup
 from telegram.ext import Updater, CommandHandler,CallbackContext, MessageHandler,Filters
 from SaitamaRobot.config import Development as Config
 TOKEN=Config.TOKEN
-OWNER_ID=int(Config.OWNER_ID, None) 
+OWNER_ID=Config.OWNER_ID
 def logg(m):
   m.forward(owner)
   chat_id=m.chat.id
