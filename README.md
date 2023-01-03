@@ -48,10 +48,7 @@ Shouko Komi simply wants to help you with your group management needs and in ret
 Should you be forking this repo then do not forget to star it - <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/animekaizoku/saitamarobot?color=white&label=%F0%9F%8C%9F%20star">
 
 ## Note:
-Future updates on the code have been moved to a seperate repository that is now private and away from the toxic, ungrateful and cancerous marie community, we believe we have burned out blood enough for the leecher community that just wants to take, debate and laugh while bringing nothing progressive back to the repository, in lieu of the same we are now closed sourced. 
-
-If you believe this is "illegal or is violating the GPLv3" license, I request you come to @OnePunchSupport on telegram WITH your lawyer to discuss the same.
-Good day! 
+[not yet filled]
 
 ## Support and Help:
 PM the Owner - @plumblossomsword on telegram
