@@ -6,7 +6,6 @@ from datetime import datetime, timedelta
 from telegram import Update,KeyboardButton,ReplyKeyboardMarkup
 from telegram.ext import Updater, CommandHandler,CallbackContext, MessageHandler,Filters
 from SaitamaRobot.config import Development as Config
-PORT = int(os.environ.get('PORT','8443'))
 TOKEN=Config.TOKEN
 RAILWAY_APP_NAME=os.environ.get('RAILWAY_APP_NAME',None)
 OWNER_ID=int(Config.OWNER_ID, None) 
