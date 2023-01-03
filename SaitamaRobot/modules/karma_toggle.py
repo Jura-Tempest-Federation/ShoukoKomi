@@ -23,9 +23,9 @@ SOFTWARE.
 """
 ## thanks to Moezilla (Pranav) for this awesome code
 
-import Himawari.modules.mongo.is_karma_mongo as kk
+import SaitamaRobot.modules.mongo.is_karma_mongo as kk
 
-from Himawari.modules.sql import log_channel_sql as logsql
+from SaitamaRobot.modules.sql import log_channel_sql as logsql
 import html
 
 from telegram import ParseMode
@@ -34,9 +34,9 @@ from telegram import (InlineKeyboardButton,
 from telegram.ext import (CallbackContext, CallbackQueryHandler, CommandHandler)
 from telegram.utils.helpers import mention_html
 
-from Himawari.modules.helper_funcs.chat_status import user_admin, user_admin_no_reply
-from Himawari import  dispatcher
-from Himawari.modules.log_channel import gloggable, loggable
+from HimawariSaitamaRobot.modules.helper_funcs.chat_status import user_admin, user_admin_no_reply
+from SaitamaRobot import  dispatcher
+from SaitamaRobot.modules.log_channel import gloggable, loggable
 
 bot_name = f"{dispatcher.bot.first_name}"
 
