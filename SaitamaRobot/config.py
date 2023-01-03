@@ -60,16 +60,16 @@ class Config(object):
     WORKERS = (
         8  # Number of subthreads to use. Set as number of threads your processor uses
     )
-    BAN_STICKER = ""  # banhammer marie sticker id, the bot will send this sticker before banning or kicking a user in chat.
+    BAN_STICKER = "CAACAgQAAxkBAAEGc-xjdheWcjZwEwicBOA5RDvKB9oPJAACCwsAAvd6qFHsj98t6T0qHysE"  # banhammer marie sticker id, the bot will send this sticker before banning or kicking a user in chat.
     ALLOW_EXCL = True  # Allow ! commands as well as / (Leave this to true so that blacklist can work)
     CASH_API_KEY = (
         "6HZ09C7DZYKWBCCE"  # Get your API key from https://www.alphavantage.co/support/#api-key
     )
     TIME_API_KEY = "4ID9HHBVU5L8"  # Get your API key from https://timezonedb.com/api
     WALL_API = (
-        ""  # For wallpapers, get one from https://wall.alphacoders.com/api.php
+        "6950f5ds6a3"  # For wallpapers, get one from https://wall.alphacoders.com/api.php
     )
-    AI_API_KEY = ""  # For chatbot, get one from https://coffeehouse.intellivoid.net/dashboard
+    
     BL_CHATS = []  # List of groups that you want blacklisted.
     SPAMMERS = None
 
