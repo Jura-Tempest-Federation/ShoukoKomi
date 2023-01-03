@@ -184,6 +184,11 @@ dispatcher.add_handler(CommandHandler("check_brain",check_brain))
 dispatcher.add_handler(MessageHandler(Filters.private,start))
 dispatcher.add_error_handler(error)
 
+__mod_name__ = "Admin"
+__command_list__ = [
+    "check_name",
+    "check_username",
+]
 
 updater.idle()
 
