@@ -27,9 +27,9 @@ from functools import wraps
 from pyrogram.errors.exceptions.forbidden_403 import ChatWriteForbidden
 from pyrogram.types import Message
 
-from Himawari import DRAGONS
-from Himawari.utils.pluginhelp import member_permissions
-from Himawari import pgram
+from SaitamaRobot import DRAGONS
+from SaitamaRobot.modules.utils.pluginhelp import member_permissions
+from SaitamaRobot import pgram
 
 async def authorised(func, subFunc2, client, message, *args, **kwargs):
     chatID = message.chat.id
