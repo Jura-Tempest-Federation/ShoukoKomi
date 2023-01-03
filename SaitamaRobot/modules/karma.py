@@ -25,7 +25,7 @@ SOFTWARE.
 import asyncio
 from SaitamaRobot.utils.permissions import adminsOnly
 from SaitamaRobot import pgram as app, OWNER_ID, db
-from SaitamaRobot.utils.errors import capture_err
+from SaitamaRobot.modules.utils.errors import capture_err
 from SaitamaRobot.mongo.karma_mongo import (
     alpha_to_int,
     get_karma,
