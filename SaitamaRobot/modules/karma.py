@@ -46,11 +46,11 @@ karma_positive_group = 3
 karma_negative_group = 4
 
 
-from Himawari import MONGO_DB_URL
+from SaitamaRobot import MONGO_DB_URI
 
 from pymongo import MongoClient
 
-worddb = MongoClient(MONGO_DB_URL) 
+worddb = MongoClient(MONGO_DB_URI) 
 k = worddb["Himalol"]["karma_status"]
 
  
