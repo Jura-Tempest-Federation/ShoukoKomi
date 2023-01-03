@@ -42,8 +42,8 @@
 
 Shouko Komi simply wants to help you with your group management needs and in return help her make 100 friends! Tee-hee - Shuuko Komi (eternal 17 year old) 
 
-* Bot Link:  <a href="https://t.me/ShoukoX_Bot" alt="Shouko Komi"> <img src="https://img.shields.io/badge/%F0%9F%A4%96%20-ShoukoKomi-blue" /> </a>
-* Support chat/group: <a  href="https://t.me/theoneandonlymurim" alt="One Punch Updates"> <img  src="https://img.shields.io/badge/%F0%9F%92%A1-%20Murim%20-9cf" /> </a>
+* Bot Link:  <a href="https://t.me/ShoukoX_Bot" alt="Shouko Komi"> <img src="https://img.shields.io/badge/%F0%9F%A4%96%20-ShoukoKomi-violet" /> </a>
+* Support chat/group: <a  href="https://t.me/theoneandonlymurim" alt="Murim"> <img  src="https://img.shields.io/badge/%F0%9F%92%A1-%20Murim%20-9cf" /> </a>
 
 Should you be forking this repo then do not forget to star it - <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/animekaizoku/saitamarobot?color=white&label=%F0%9F%8C%9F%20star">
 
