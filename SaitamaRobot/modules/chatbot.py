@@ -4,7 +4,7 @@ import re
 import os
 import html
 import requests
-import RUKA.modules.sql.chatbot_sql as sql
+import SaitamaRobot.modules.sql.chatbot_sql as sql
 
 from time import sleep
 from telegram import ParseMode
@@ -16,10 +16,10 @@ from telegram.ext import (CallbackContext, CallbackQueryHandler, CommandHandler,
 from telegram.error import BadRequest, RetryAfter, Unauthorized
 from telegram.utils.helpers import mention_html, mention_markdown, escape_markdown
 
-from RUKA.modules.helper_funcs.filters import CustomFilters
-from RUKA.modules.helper_funcs.chat_status import user_admin, user_admin_no_reply
-from RUKA import dispatcher, updater, SUPPORT_CHAT, AI_API_KEY
-from RUKA.modules.log_channel import gloggable
+from SaitamaRobot.modules.helper_funcs.filters import CustomFilters
+from SaitamaRobot.modules.helper_funcs.chat_status import user_admin, user_admin_no_reply
+from SaitamaRobot import dispatcher, updater, SUPPORT_CHAT, AI_API_KEY
+from SaitamaRobot.modules.log_channel import gloggable
 
 @run_async
 @user_admin_no_reply
