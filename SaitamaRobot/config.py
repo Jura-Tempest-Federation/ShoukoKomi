@@ -35,6 +35,7 @@ class Config(object):
     INFOPIC = True
     ALLOW_CHATS = True
     URL = None
+    SIBYL_KEY = "2064735436:qqp7Dio6yh0mePDvJwUN3UGNhU7zrb_1ql_gXrNXNXBfxq68c4fPYi2cwjNhJ8_N"
     SPAMWATCH_API = "zKSTO8g_x3qmaMrU_tiTRXibTb532qbmTKXYW3RdyW8Pq0qk1oEtqddo7HqxRp~1"  # go to support.spamwat.ch to get key
     SPAMWATCH_SUPPORT_CHAT = "@SpamWatchSupport"
 
