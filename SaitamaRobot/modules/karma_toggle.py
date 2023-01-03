@@ -23,7 +23,7 @@ SOFTWARE.
 """
 ## thanks to Moezilla (Pranav) for this awesome code
 
-import SaitamaRobot.modules.mongo.is_karma_mongo as kk
+import SaitamaRobot.mongo.is_karma_mongo as kk
 
 from SaitamaRobot.modules.sql import log_channel_sql as logsql
 import html
@@ -34,17 +34,17 @@ from telegram import (InlineKeyboardButton,
 from telegram.ext import (CallbackContext, CallbackQueryHandler, CommandHandler)
 from telegram.utils.helpers import mention_html
 
-from HimawariSaitamaRobot.modules.helper_funcs.chat_status import user_admin, user_admin_no_reply
+from SaitamaRobot.modules.helper_funcs.chat_status import user_admin, user_admin_no_reply
 from SaitamaRobot import  dispatcher
 from SaitamaRobot.modules.log_channel import gloggable, loggable
 
 bot_name = f"{dispatcher.bot.first_name}"
 
-from Himawari import MONGO_DB_URL
+from SaitamaRobot import MONGO_DB_URI
 
 from pymongo import MongoClient
 
-worddb = MongoClient(MONGO_DB_URL) 
+worddb = MongoClient(MONGO_DB_URI) 
 k = worddb["Himalol"]["karma_status"]
  
 
